@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
+C:\works\SYUBook\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1722995331.index
+\Hello2\src
 C:\works\TestPJ\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1406213844.index
 \Hello\src
