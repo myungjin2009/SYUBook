@@ -3,3 +3,21 @@
 5월 17, 2021 09:37:03.235 
 5월 17, 2021 09:37:03.255 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 5월 17, 2021 09:37:03.256 
+
+5월 20, 2021 22:36:46.635 NEW SESSION
+5월 20, 2021 22:36:46.635 [Parent 11900, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+5월 20, 2021 23:41:14.932 IPDL protocol error: Handler returned error code!
+5월 20, 2021 23:41:14.985 [GFX1-]: Updating unknown shared surface: 77309411443
+5월 20, 2021 23:41:14.986 
+5월 20, 2021 23:41:14.988 ###!!! [Parent][DispatchAsyncMessage] Error: PWebRenderBridge::Msg_UpdateResources Processing error: message was deserialized, but the handler returned false (indicating failure)
+5월 20, 2021 23:41:14.989 
+
+5월 21, 2021 12:12:15.780 NEW SESSION
+5월 21, 2021 12:12:15.781 
+5월 21, 2021 12:12:15.785 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+5월 21, 2021 12:12:15.785 
+5월 21, 2021 18:34:53.902 IPDL protocol error: Handler returned error code!
+5월 21, 2021 18:34:53.999 [GFX1-]: Updating unknown shared surface: 98784255795
+5월 21, 2021 18:34:54.00 
+5월 21, 2021 18:34:54.02 ###!!! [Parent][DispatchAsyncMessage] Error: PWebRenderBridge::Msg_UpdateResources Processing error: message was deserialized, but the handler returned false (indicating failure)
+5월 21, 2021 18:34:54.08 

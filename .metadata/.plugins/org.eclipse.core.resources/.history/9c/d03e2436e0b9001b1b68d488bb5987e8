@@ -1,0 +1,27 @@
+package core;
+
+import java.sql.*;
+
+import javax.naming.NamingException;
+
+import util.*;
+
+public class UserDAO {
+	public boolean insert(String uid, String upass, String uname) throws NamingException, SQLException {
+		PreparedStatement stmt = null;
+		Connection conn = ConnectionPool.get();
+		try {
+		
+		String sql = "INSERT INTO user(id, password, name) VALUES(?,?,?)";
+		stmt = conn.prepareStatement(sql);
+		stmt.setString(1, uid);
+		stmt.setString(2, upass);
+		stmt.setString(3, uname);
+		
+		int count = stmt.executeUpdate();
+		return (count == 1) ? true : false;
+		} finally {
+			stmt.close(); conn.close();
+		}
+	}		
+}
