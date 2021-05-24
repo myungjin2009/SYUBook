@@ -4,7 +4,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
-	<form action="feedAdd2.jsp" method="post" enctype="multipart/form-data">
+	<form action="feedAddTest.jsp" method="post" enctype="multipart/form-data">
 		<table align=center>
 		<tr><td colspan=2 align=center height=40><b>글작성</b><td></tr>
 		<tr>
