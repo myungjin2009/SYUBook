@@ -9,4 +9,8 @@
     <fullyQualifiedTypeName name="util.ConnectionPool"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.util.json.JSONParser"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 </qualifiedTypeNameHistroy>
